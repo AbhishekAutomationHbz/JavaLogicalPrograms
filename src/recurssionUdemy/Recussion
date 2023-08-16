@@ -1,0 +1,19 @@
+Recurssion is the process of a function calling itself.
+
+Generally whenever there is same logic is repeating we have to use recusion.
+eg:- traversing binary trees.
+ eg1:
+def factorial(n)
+	if n==0
+		return
+	
+	else
+		return n*factorial(n-1)
+		
+
+eg2:
+		factorial(3) = 3*2*1
+		factorial(3) = 3*factorial(2)
+		factorial(2) = 2*factorial(1)
+		factorial(1) = 1*factorial(1)
+		factorial(n) = n*factorial(n-1)
