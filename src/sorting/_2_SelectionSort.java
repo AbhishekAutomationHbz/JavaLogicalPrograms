@@ -2,6 +2,7 @@ package sorting;
 
 public class _2_SelectionSort {
 	//Selection Sort Testing.
+	//Made changes for the new branch.
 	public static void main(String[] args) {
 		
 		int[] numbers = {2,5,1,7,8,3,4,9,6};
